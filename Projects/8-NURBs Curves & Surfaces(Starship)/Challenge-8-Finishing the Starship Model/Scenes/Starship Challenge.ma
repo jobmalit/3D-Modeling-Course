@@ -1,6 +1,6 @@
 //Maya ASCII 2024 scene
-//Name: Starship.ma
-//Last modified: Fri, Mar 29, 2024 09:39:17 PM
+//Name: Starship Challenge.ma
+//Last modified: Fri, Mar 29, 2024 09:40:39 PM
 //Codeset: 1252
 requires maya "2024";
 requires "stereoCamera" "10.0";
@@ -13,7 +13,7 @@ fileInfo "product" "Maya 2024";
 fileInfo "version" "2024";
 fileInfo "cutIdentifier" "202310181224-69282f2959";
 fileInfo "osv" "Windows 10 Pro v2009 (Build: 19045)";
-fileInfo "UUID" "9F9188B5-40C5-1A45-2561-1A801A379CF0";
+fileInfo "UUID" "0626F378-4165-ACBD-5369-F08F5269C549";
 createNode transform -s -n "persp";
 	rename -uid "48D39646-4048-2BB8-9FBC-45B675288BCE";
 	setAttr ".v" no;
@@ -13430,7 +13430,7 @@ createNode groupId -n "groupId56";
 	rename -uid "7B7B2F9D-4187-49A8-BB15-E48E795FE293";
 	setAttr ".ihi" 0;
 createNode mayaUsdLayerManager -n "mayaUsdLayerManager1";
-	rename -uid "7CC8612E-4CE8-3B62-5988-D28A6C7D9541";
+	rename -uid "D64FB248-4546-0C16-B211-B8B13CBD4E1D";
 	setAttr ".sst" -type "string" "";
 select -ne :time1;
 	setAttr ".o" 1;
@@ -13534,4 +13534,4 @@ connectAttr "groupId44.msg" ":defaultLastHiddenSet.gn" -na;
 connectAttr "groupId46.msg" ":defaultLastHiddenSet.gn" -na;
 connectAttr "groupId50.msg" ":defaultLastHiddenSet.gn" -na;
 connectAttr "groupId52.msg" ":defaultLastHiddenSet.gn" -na;
-// End of Starship.ma
+// End of Starship Challenge.ma
